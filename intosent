@@ -1,5 +1,13 @@
 <?php
 
+
+/**
+      * A funtion to divide text into sentences
+      *
+      * @param string $text 
+      *
+      * @return array
+*/
 function intosent($text){
   
   $text_arr = preg_split('/\.\s+\n*([А-ЯA-Z])/u',$text,-1, PREG_SPLIT_NO_EMPTY | PREG_SPLIT_DELIM_CAPTURE);
