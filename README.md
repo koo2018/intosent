@@ -1,2 +1,2 @@
 # intosent
-A script dividing text into sentences. Works with cyrillic and latint text. Respects abriviations.
+A script dividing text into sentences. Works with cyrillic and latint text. Respects abbreviations.
